@@ -1,2 +1,20 @@
-font-family: 'Nunito', sans-serif;
-font-family: 'Pacifico', cursive;
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #E6FAFC;
+}
+
+.navbar{
+	background-color: #739E82;
+}
+
+.link{
+    color: #FFC6C1;
+    font-family: 'Pacifico', cursive;
+}
+
+.link:hover{
+	color: #FF5DA9;
+	text-decoration: none;
+}
