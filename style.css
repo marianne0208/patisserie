@@ -36,6 +36,14 @@ body {
 	justify-content: center;	
 }
 
+.img-fit{
+	object-fit: cover;
+}
+
+.img-height{
+	height: 30vh;
+}
+
 .link{
     color: #FFC6C1;
     font-family: 'Pacifico', cursive;
