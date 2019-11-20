@@ -1,22 +1,6 @@
-.banner {
-	background-image:url(images/roules_cannelle.jpeg);
-	background-position: center;
-	height: 50vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.banner-title {
-	text-align: center;
-	color: white;
-	text-shadow: 5px 5px 10px grey;
-	font-family: 'Pacifico', cursive;
-	font-size: 20px;
-}
-
 body {
 	background-color: #E6FAFC;
+	-webkit-overflow-scrolling:touch;
 }
 
  .carousel-inner .carousel-item {
@@ -30,10 +14,35 @@ body {
  	min-height: 300px;
  }
 
+
+ .card-deck {
+ 	margin: 20px 20px 20px 20px;
+ }
+
+.col-sm-4 {
+	margin-bottom: 20px;
+}
+
 .header{
 	display: flex;
 	align-items: center;
 	justify-content: center;	
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+iframe {
+	height: 60vh;
+	width: 60vh;
+}
+
+.img-carree {
+	height: 90px;
+	width: 90px;
 }
 
 .img-fit{
@@ -42,6 +51,11 @@ body {
 
 .img-height{
 	height: 30vh;
+}
+
+.img-rectangle {
+	height: 70px;
+	width: auto;
 }
 
 .link{
@@ -59,6 +73,19 @@ body {
 	background-color: #739E82;
 }
 
+.overlay {
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: white;
+	text-shadow: 5px 5px 10px grey;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+
 .small_banner {
 	background-color: #FFC6B6;
 	font-family: 'Pacifico', cursive;
@@ -71,18 +98,24 @@ body {
 .section_boutique img {
 	width: 50%;
 	object-fit: cover;
+	border-radius: 5px;
 }
 
 .section_boutique {
 	display: flex;
-	flex-direction: space-between;
 	height: 50vh;
+	margin: 20px 20px 20px 20px;
+}
+
+.section-contact {
+	margin: 20px 20px 20px 20px;
+	justify-content : space-between;
 }
 
 .section_partenaires {
 	display: flex;
 	flex-direction: space-between;
-	margin: 10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
 }
 
 .section_partenaires img {
