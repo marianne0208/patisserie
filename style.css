@@ -51,7 +51,7 @@ iframe {
 }
 
 .img-rectangle {
-	height: 30vh;
+	height: 90px;
 	width: auto;
 }
 
@@ -81,6 +81,11 @@ iframe {
 	text-shadow: 5px 5px 10px grey;
 	font-family: 'Pacifico', cursive;
 	font-size: 20px;
+}
+
+.section-video {
+	display: flex;
+	justify-content: space-between;
 }
 
 .small_banner {
