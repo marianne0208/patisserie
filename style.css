@@ -1,3 +1,4 @@
+
 body {
 	background-color: #E6FAFC;
 	-webkit-overflow-scrolling:touch;
@@ -14,7 +15,6 @@ body {
  	min-height: 300px;
  }
 
-
  .card-deck {
  	margin: 20px 20px 20px 20px;
  }
@@ -23,17 +23,15 @@ body {
 	margin-bottom: 20px;
 }
 
-.header{
+.header {
 	display: flex;
 	align-items: center;
 	justify-content: center;	
 }
 
-
 html {
 	scroll-behavior: smooth;
 }
-
 
 iframe {
 	height: 60vh;
@@ -45,26 +43,26 @@ iframe {
 	width: 90px;
 }
 
-.img-fit{
+.img-fit {
 	object-fit: cover;
 }
 
-.img-height{
+.img-height {
 	height: 30vh;
 }
 
 .img-rectangle {
-	height: 70px;
+	height: 30vh;
 	width: auto;
 }
 
-.link{
+.link {
     color: #FFC6C1;
     font-family: 'Pacifico', cursive;
     font-size: 24px;
 }
 
-.link:hover{
+.link:hover {
 	color: #FF5DA9;
 	text-decoration: none;
 }
@@ -114,7 +112,7 @@ iframe {
 
 .section_partenaires {
 	display: flex;
-	flex-direction: space-between;
+	justify-content: space-between;
 	margin: 20px 20px 20px 20px;
 }
 
