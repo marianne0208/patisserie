@@ -22,6 +22,16 @@ body {
 	margin-bottom: 20px;
 }
 
+.contain-card {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contain-right {
+	width: 200px;
+}
+
 .header {
 	display: flex;
 	align-items: center;
@@ -31,6 +41,7 @@ body {
 h3 {
 	color: #739E82;
 }
+
 html {
 	scroll-behavior: smooth;
 }
@@ -84,6 +95,14 @@ iframe {
 	text-shadow: 5px 5px 10px grey;
 	font-family: 'Pacifico', cursive;
 	font-size: 20px;
+}
+
+.position {
+	font-family: nunico;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+
 }
 
 .section-video {
