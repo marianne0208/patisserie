@@ -28,6 +28,9 @@ body {
 	justify-content: center;	
 }
 
+h3 {
+	color: #739E82;
+}
 html {
 	scroll-behavior: smooth;
 }
@@ -85,7 +88,8 @@ iframe {
 
 .section-video {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .small_banner {
