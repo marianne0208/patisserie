@@ -22,10 +22,31 @@ body {
 	margin-bottom: 20px;
 }
 
+.contain-card {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contain-right {
+	width: 200px;
+}
+
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+}
+
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: center;	
+}
+
+h3 {
+	color: #739E82;
+	font-family: 'Nunito', sans-serif;
 }
 
 html {
@@ -73,7 +94,7 @@ iframe {
 .overlay {
 	position: absolute;
 	z-index: 2;
-	top: 70%;
+	top: 60%;
 	left: 0;
 	width: 100%;
 	text-align: center;
@@ -83,9 +104,11 @@ iframe {
 	font-size: 20px;
 }
 
+
 .section-video {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .small_banner {
@@ -118,6 +141,17 @@ iframe {
 	display: flex;
 	justify-content: space-between;
 	margin: 20px 20px 20px 20px;
+}
+
+.social-networks {
+	display: flex;
+	align-items: center;
+}
+
+.social-networks i {
+	font-size: 35px;
+	color: #739E82;
+	margin-right: 10px;
 }
 
 .txt_boutique {
